@@ -1,0 +1,12 @@
+[alias]
+	co = checkout
+	st = status
+	cm = commit
+[user]
+	name = yankewei
+	email = yankewei1993@gmail.com
+	signingkey = /Users/yankewei/.ssh/id_rsa_github.pub
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
