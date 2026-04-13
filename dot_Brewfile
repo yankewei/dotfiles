@@ -1,6 +1,6 @@
 # ============================================
 # chezmoi 管理的 Homebrew 软件
-# 
+#
 # 使用方法：
 #   brew bundle --global          # 安装所有
 #   brew bundle --global --force  # 强制重新安装
@@ -14,12 +14,11 @@ brew "node"           # JavaScript 运行时
 brew "pnpm"           # 快速包管理器
 
 # === GUI 应用（cask）===
-cask "codex"            # OpenAI 终端 AI 工具
 cask "maccy"            # 剪贴板管理器
 cask "font-maple-mono"  # 字体
+cask "ghostty"        # 终端（你已用配置管理）
 
 # === 可选 cask 应用（取消注释以启用）===
-# cask "ghostty"        # 终端（你已用配置管理）
 # cask "raycast"        # 启动器（替代 Spotlight）
 # cask "arc"            # 浏览器
 # cask "cursor"         # AI 编辑器
