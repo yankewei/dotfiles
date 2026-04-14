@@ -1,6 +1,8 @@
 #!/bin/bash
 # 文件名中的 `onchange` 确保只有文件内容变化时才执行
 # `after` 确保在文件同步完成后执行
+# 让脚本内容依赖 dot_Brewfile 的内容，这样 Brewfile 变化时也会重新执行
+# brewfile-sha256: {{ include "dot_Brewfile" | sha256sum }}
 
 set -e
 

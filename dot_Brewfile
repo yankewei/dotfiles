@@ -16,14 +16,14 @@ brew "pnpm"           # 快速包管理器
 # === GUI 应用（cask）===
 cask "maccy"            # 剪贴板管理器
 cask "font-maple-mono"  # 字体
-cask "ghostty"        # 终端（你已用配置管理）
+cask "ghostty"          # 终端（你已用配置管理）
+cask "fork"             # Git 客户端
 
 # === 可选 cask 应用（取消注释以启用）===
 # cask "raycast"        # 启动器（替代 Spotlight）
 # cask "arc"            # 浏览器
 # cask "cursor"         # AI 编辑器
 # cask "visual-studio-code"
-# cask "fork"           # Git 客户端
 # cask "tableplus"      # 数据库工具
 # cask "docker"         # 容器
 
